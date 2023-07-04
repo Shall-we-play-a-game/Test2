@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fruits List</title>
+  </head>
+  <body>
+    <h1>Fruits List sorted in Alphabetical order based on colors</h1>
+    <ul>
+      <% fruits.forEach(function(fruit) { %>
+      <li><%= fruit.id %> - <%= fruit.name %> - <%= fruit.color %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
